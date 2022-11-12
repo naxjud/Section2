@@ -1,6 +1,4 @@
-<?php 
-include 'helpers.php';
+<?php
+require "helpers.php";
 
-$title = "Home";
-
-require('views/index.view.php');
+require "router.php";
